@@ -34,8 +34,7 @@ def run():
             break
 
         elif choose == 3:
-            print(pwd,encrypted_pwd)
-            print(f"Your encrypted password is: {encrypted_pwd} and your plain text password is: {pwd}")
+            print(f"Your encrypted password is: {encrypted_pwd} \n Your plain text password is: {pwd}")
             break
 
         else:
